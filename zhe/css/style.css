@@ -1,0 +1,93 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body,.box{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	background: #fff;
+	overflow-y:auto;
+}
+body{
+	font-size:.16rem;
+	position: relative;
+}
+.head{
+	width:100%;
+	height:.4rem;
+	line-height: .4rem;
+	background: #666;
+	display: flex;
+	justify-content: space-between;
+	z-index: 0;
+	color:#fff;
+}
+.mask{
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top:0;
+	z-index: 999;
+}
+.m-box{
+	width:90%;
+	margin-left: 5%;
+	margin-top:35%;
+	background: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.m-box span{
+	position: absolute;
+	left:11%
+}
+.phone{
+	top:1.05rem;
+}
+.phone img{
+	width:.18rem;
+}
+.pass{
+	top:1.6rem;
+}
+.pass img{
+	width:.18rem;
+}
+.m-box .logo{
+	width:1.2rem;
+	margin-top:.25rem;
+}
+.m-box p{
+	color:#666;
+}
+.m-box input{
+	width:80%;
+	height:.4rem;
+	outline:none;
+	border:0;
+	border-bottom:1px solid #ccc;
+	margin-top:.1rem;
+	padding-left: .25rem
+}
+.m-box button{
+	width:80%;
+	height:.36rem;
+	margin-top:.4rem;
+	border:0;
+	background: #2BBC77;
+	border-radius:5px;
+	border-radius:5px;
+	color:#fff;
+	margin-bottom:.4rem;
+}
